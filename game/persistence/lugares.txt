@@ -1,0 +1,30 @@
+lugares	género_l
+una misteriosa isla	None
+una fiesta	None
+el bosque alado	None
+un campo de concentracion	None
+Polonia	None
+una villa	None
+Francia	None
+los restos de una colonia	None
+la casa familiar	None
+las ruinas de una antigua civilzacion	None
+la Atlantida	None
+el dorado	None
+Agartha	None
+Gilead	None
+Transilvania	None
+la Antartida	None
+Londres	None
+la capital	None
+la reunion	None
+una isla	Aventura
+una oficina	Comedia
+un bosque	Fantasía
+una cabaña	Terror
+una metropoli	Acción
+una catedral	Suspenso
+un pueblo	Romance
+un planeta lejano	Ciencia Ficción
+una villa	Drama
+el Londres	Misterio

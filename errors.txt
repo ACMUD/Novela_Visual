@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 129: unmatched ')'
+    lG.create(next_val,genero,url_recourse_maker(['/illustrato/legion'], 'py')))
+                                                                                ^
+
+Ren'Py Version: Ren'Py 8.0.0.22041401n
+Sun May  1 14:12:57 2022

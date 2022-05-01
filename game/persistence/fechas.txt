@@ -1,0 +1,13 @@
+fechas	género_l
+el medioevo	None
+la segunda guerra mundial	None
+la noche de los muertos	None
+la revolucion francesa	None
+la conquista de america	None
+la guerra fria	None
+la primera guerra mundial	None
+la conquista de africa	None
+la guerra de los cien años	None
+la guerra de los mil días	None
+la carrera espacial	None
+el renacimiento	None

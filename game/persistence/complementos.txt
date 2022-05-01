@@ -1,0 +1,30 @@
+complementos	género_l
+con un compañero	Aventura
+a las ruinas	Aventura
+al tesoro	Aventura
+al trabajo	Comedia
+con madurez	Comedia
+con experiencia	Comedia
+a la princesa	Fantasía
+con sus poderes	Fantasía
+al villano	Fantasía
+con un asesino	Terror
+con un espiritu	Terror
+con un demonio	Terror
+con su familia	Acción
+con su pasado	Acción
+a la mafia	Acción
+al apocalipsis	Suspenso
+a la secta	Suspenso
+a la conspiración	Suspenso
+con su pareja	Romance
+con amor	Romance
+con un imperio	Ciencia Ficción
+con una IA	Ciencia Ficción
+con una realidad	Ciencia Ficción
+con una relación	Drama
+con pecado	Drama
+con una enfermedad	Drama
+por un caso	Misterio
+por un homicidio	Misterio
+por un hurto	Misterio
