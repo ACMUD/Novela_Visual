@@ -1,0 +1,63 @@
+\book{
+	\bookpart {
+		\paper {
+			print-page-number = ##t
+			print-first-page-number = ##t
+			oddHeaderMarkup = \markup \null
+			evenHeaderMarkup = \markup \null
+			oddFooterMarkup = \markup {
+				\fill-line {
+					\on-the-fly \print-page-number-check-first
+					\fromproperty #'page:page-number-string
+				}
+			}
+			evenFooterMarkup = \oddFooterMarkup
+		}
+		\header {
+			title = "Misterio"
+			subtitle = "Sinopsis"
+			composer = "Pedro Barr."
+			tagline = \markup \italic "LilyPond - Pedro Barr. 2022"
+			copyright =  ##f
+		}
+		\score {
+			\relative c'{
+				\include "predefined-guitar-fretboards.ly"
+				\new StaffGroup <<
+					\new PianoStaff \with {
+						instrumentName = "Piano"
+						shortInstrumentName = "Pno"
+						midiInstrument = #"acoustic grand"
+					} <<
+						\new Staff{
+							\clef "treble"
+							\key b \major
+							\numericTimeSignature
+							\time 4/4
+							\tempo 4 = 77
+							\relative c'{
+								<dis gis>8 <c g'>4 <d f>4 <dis ais'>4 <d gis>8~|
+								<d gis>8 <dis g>4 <d fis> <c g'>4. |
+							}
+						}
+						\new Staff{
+							\clef "bass"
+							\key b \major
+							\numericTimeSignature
+							\time 4/4
+							\relative c{
+								r8 c4 g4 ais4 fis8~|
+								fis8 gis4 f g4. |
+							}
+						}
+					>>
+				>>
+			}
+			\layout{
+				indent = 2.5\cm
+				short-indent = 0.8\cm
+			}
+			\midi{}
+		}
+	}
+}

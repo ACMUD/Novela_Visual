@@ -1,0 +1,10 @@
+Aventura
+Comedia
+Fantasía
+Terror
+Acción
+Suspenso
+Romance
+Ciencia Ficción
+Drama
+Misterio

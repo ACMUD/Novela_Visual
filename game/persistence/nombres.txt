@@ -1,0 +1,51 @@
+nombres	género_b	género_l
+Jean	M	None
+Peter	M	None
+Andrea	F	None
+Andres	M	None
+Robert	M	None
+Jackson	M	None
+Daniel	M	None
+Dunhan	M	None
+Victoria	F	None
+Eliot	M	None
+Carolina	F	None
+Maria	F	None
+Brayan	M	None
+Santiago	M	None
+Juana	F	None
+Sebastian	M	None
+Jennifer	F	None
+Ricardo	M	None
+Jean	F	Aventura
+Dave	M	Aventura
+Phileas	M	Aventura
+Peter	M	Comedia
+Simon	M	Comedia
+Beti	F	Comedia
+Legolas	M	Fantasía
+Lucifer	M	Fantasía
+Lucifer	F	Fantasía
+Gabriel	M	Fantasía
+Natalia	F	Terror
+Jack	M	Terror
+Dexter	M	Terror
+John	M	Acción
+Ms. Smith	F	Acción
+Mr. Smith	M	Acción
+James	M	Acción
+Robert	M	Suspenso
+Ana	F	Suspenso
+Jeff	M	Suspenso
+Amelia	F	Romance
+Juliana	F	Romance
+Alejandro	M	Romance
+Mark	M	Ciencia Ficción
+Marie	F	Ciencia Ficción
+Elon	M	Ciencia Ficción
+Juan	M	Drama
+Christopher	M	Drama
+Victoria	F	Drama
+Alice	F	Misterio
+Eliot	M	Misterio
+Agatha	F	Misterio

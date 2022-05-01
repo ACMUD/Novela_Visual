@@ -1,0 +1,63 @@
+\book{
+	\bookpart {
+		\paper {
+			print-page-number = ##t
+			print-first-page-number = ##t
+			oddHeaderMarkup = \markup \null
+			evenHeaderMarkup = \markup \null
+			oddFooterMarkup = \markup {
+				\fill-line {
+					\on-the-fly \print-page-number-check-first
+					\fromproperty #'page:page-number-string
+				}
+			}
+			evenFooterMarkup = \oddFooterMarkup
+		}
+		\header {
+			title = "Drama"
+			subtitle = "Sinopsis"
+			composer = "Pedro Barr."
+			tagline = \markup \italic "LilyPond - Pedro Barr. 2022"
+			copyright =  ##f
+		}
+		\score {
+			\relative c'{
+				\include "predefined-guitar-fretboards.ly"
+				\new StaffGroup <<
+					\new PianoStaff \with {
+						instrumentName = "Piano"
+						shortInstrumentName = "Pno"
+						midiInstrument = #"acoustic grand"
+					} <<
+						\new Staff{
+							\clef "treble"
+							\key c \major
+							\numericTimeSignature
+							\time 4/4
+							\tempo 4 = 70
+							\relative c'{
+								<c e a>2 <c e g> |
+								<b e g>2 <b d g>4 <b e g> |
+							}
+						}
+						\new Staff{
+							\clef "bass"
+							\key c \major
+							\numericTimeSignature
+							\time 4/4
+							\relative c{
+								a'8 g4 e8 c4 d |
+								<e g>4. c8 <e g>2
+							}
+						}
+					>>
+				>>
+			}
+			\layout{
+				indent = 2.5\cm
+				short-indent = 0.8\cm
+			}
+			\midi{}
+		}
+	}
+}

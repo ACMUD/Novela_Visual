@@ -1,0 +1,78 @@
+\book{
+	\bookpart {
+		\paper {
+			print-page-number = ##t
+			print-first-page-number = ##t
+			oddHeaderMarkup = \markup \null
+			evenHeaderMarkup = \markup \null
+			oddFooterMarkup = \markup {
+				\fill-line {
+					\on-the-fly \print-page-number-check-first
+					\fromproperty #'page:page-number-string
+				}
+			}
+			evenFooterMarkup = \oddFooterMarkup
+		}
+		\header {
+			title = "Acción"
+			subtitle = "Sinopsis"
+			composer = "Pedro Barr."
+			tagline = \markup \italic "LilyPond - Pedro Barr. 2022"
+			copyright =  ##f
+		}
+		\score {
+			\relative c'{
+				\include "predefined-guitar-fretboards.ly"
+				\new StaffGroup <<
+					\new PianoStaff \with {
+						instrumentName = "Electric Guitar"
+						shortInstrumentName = "El.Gtr"
+					} <<
+						\new Staff\with {
+							midiInstrument = #"distorted guitar"
+						} {
+							\clef "treble"
+							\key g \minor
+							\numericTimeSignature
+							\time 4/4
+							\tempo 4 = 120
+							\relative c'{
+								d8. bes'8. a4 d,8 <f g>8 g8 |
+								d8. bes'8. a4 d,8 <f g>8 g8 |
+							}
+						}
+						\new Staff\with {
+							midiInstrument = #"distorted guitar"
+						} {
+							\clef "treble"
+							\key g \minor
+							\numericTimeSignature
+							\time 4/4
+							\relative c'{
+								<d g bes>4.~<d f bes>2~<d f bes>8~|
+								<ees f aes>4.~<d f g>2~<d f g>8 |
+							}
+						}
+					>>
+					\new DrumStaff \with {
+						instrumentName = "Drums"
+						shortInstrumentName = "Drm"
+					} <<
+						\new DrumVoice{
+							\voiceOne
+							\drummode {
+								hho16 hho hho hho hho8 hho16 hho hho hho8 hho16 hhc4 |
+								hho16 hho hho hho hho8 hho16 hho hho hho8 hho16 hhc4 |
+							}
+						}
+					>>
+				>>
+			}
+			\layout{
+				indent = 2.5\cm
+				short-indent = 0.8\cm
+			}
+			\midi{}
+		}
+	}
+}

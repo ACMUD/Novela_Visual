@@ -1,0 +1,68 @@
+profesiones	género_a	género_l
+pirata	U	None
+pirata	U	Aventura
+pirata	U	Fantasía
+pirata	U	Ciencia Ficción
+oficinista	U	None
+hechicera	F	None
+hechicero	M	None
+hechicera	F	Fantasía
+hechicero	M	Fantasía
+hechicera	F	Aventura
+hechicero	M	Aventura
+estudiante	U	None
+soldado	U	None
+soldado	U	Acción
+soldado	U	Ciencia Ficción
+soldado	U	Aventura
+cantante	U	None
+escritora	F	None
+escritor	U	None
+astronauta	U	None
+astronauta	U	Acción
+astronauta	U	Ciencia Ficción
+astronauta	U	Terror
+investigadora	F	None
+investigador	M	None
+investigadora	F	Terror
+investigador	M	Terror
+investigadora	F	Suspenso
+investigador	M	Suspenso
+investigadora	F	Ciencia Ficción
+investigador	M	Ciencia Ficción
+investigadora	F	Terror
+investigador	M	Terror
+periodista	M	Drama
+periodista	F	Drama
+periodista	M	Misterio
+periodista	F	Misterio
+sicario	M	None
+sicaria	F	None
+sicario	M	Acción
+sicaria	F	Acción
+sicario	M	Ciencia Ficción
+sicaria	F	Ciencia Ficción
+sicario	M	Aventura
+sicaria	F	Aventura
+sicario	M	Terror
+sicaria	F	Terror
+conductor	M	None
+conductora	F	None
+conductor	M	Acción
+conductora	F	Acción
+alpinista	U	None
+alpinista	U	Aventura
+futbolista	U	None
+programador	M	None
+programadora	F	None
+programador	M	Comedia
+programadora	F	Comedia
+animadora	F	None
+animador	M	None
+animadora	F	Comedia
+animador	M	Comedia
+animadora	F	Terror
+animador	M	Terror
+artista	U	None
+actriz	F	None
+actor	M	None

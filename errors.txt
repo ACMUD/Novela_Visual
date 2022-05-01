@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 29: expected 'comma or end of line' not found.
+    $ next_val = url_recourse_maker(['/choice_genero/choice_genero.png'],'bg')
+    ^
+
+Ren'Py Version: Ren'Py 8.0.0.22041401n
+Tue Apr 19 00:48:55 2022

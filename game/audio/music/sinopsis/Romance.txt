@@ -1,0 +1,75 @@
+\book{
+	\bookpart {
+		\paper {
+			print-page-number = ##t
+			print-first-page-number = ##t
+			oddHeaderMarkup = \markup \null
+			evenHeaderMarkup = \markup \null
+			oddFooterMarkup = \markup {
+				\fill-line {
+					\on-the-fly \print-page-number-check-first
+					\fromproperty #'page:page-number-string
+				}
+			}
+			evenFooterMarkup = \oddFooterMarkup
+		}
+		\header {
+			title = "Romance"
+			subtitle = "Sinopsis"
+			composer = "Pedro Barr."
+			tagline = \markup \italic "LilyPond - Pedro Barr. 2022"
+			copyright =  ##f
+		}
+		\score {
+			\relative c'{
+				\include "predefined-guitar-fretboards.ly"
+				\new StaffGroup <<
+					\new PianoStaff \with {
+						instrumentName = "Piano"
+						shortInstrumentName = "Pno"
+						midiInstrument = #"acoustic grand"
+					} <<
+						\new Staff {
+							\clef "treble"
+							\key f \major
+							\numericTimeSignature
+							\time 4/4
+							\tempo 4 = 100
+							\relative c'{
+								bes'8 g a bes c a bes c |
+								d8 a c d ees4 c |
+							}
+						}
+						\new Staff {
+							\clef "bass"
+							\key f \major
+							\numericTimeSignature
+							\time 4/4
+							\relative c{
+								<g g,>4. <g g,>2~<g g,>8 |
+								<g g,>4. <g g,>2~<g g,>8 |
+							}
+						}
+					>>
+					\new DrumStaff \with {
+						instrumentName = "Drums"
+						shortInstrumentName = "Drm"
+					} <<
+						\new DrumVoice{
+							\voiceOne
+							\drummode {
+								bd4. bd2 r8 |
+								bd4. bd2 hh8 |
+							}
+						}
+					>>
+				>>
+			}
+			\layout{
+				indent = 2.5\cm
+				short-indent = 0.8\cm
+			}
+			\midi{}
+		}
+	}
+}

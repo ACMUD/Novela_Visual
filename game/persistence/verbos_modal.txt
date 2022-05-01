@@ -1,0 +1,5 @@
+verbos_modal	género_l
+debe	None
+quiere	None
+tiene que	None
+puede	None

@@ -1,0 +1,86 @@
+\book{
+	\bookpart {
+		\paper {
+			print-page-number = ##t
+			print-first-page-number = ##t
+			oddHeaderMarkup = \markup \null
+			evenHeaderMarkup = \markup \null
+			oddFooterMarkup = \markup {
+				\fill-line {
+					\on-the-fly \print-page-number-check-first
+					\fromproperty #'page:page-number-string
+				}
+			}
+			evenFooterMarkup = \oddFooterMarkup
+		}
+		\header {
+			title = "Ciencia Ficción"
+			subtitle = "Sinopsis"
+			composer = "Pedro Barr."
+			tagline = \markup \italic "LilyPond - Pedro Barr. 2022"
+			copyright =  ##f
+		}
+		\score {
+			\relative c'{
+				\include "predefined-guitar-fretboards.ly"
+				\new StaffGroup <<
+					\new PianoStaff \with {
+						instrumentName = "Piano"
+						shortInstrumentName = "Pno"
+						midiInstrument = #"electric piano 1"
+					} <<
+						\new Staff {
+							\clef "treble"
+							\key ees \major
+							\numericTimeSignature
+							\time 3/4
+							\tempo 4 = 100
+							\relative c'{
+								bes''2. |
+								bes8 bes2~bes8 |
+							}
+						}
+						\new Staff {
+							\clef "treble"
+							\key ees \major
+							\numericTimeSignature
+							\time 3/4
+							\tempo 4 = 100
+							\relative c'{
+								g8 ees'4 d c8 |
+								d4 bes8 c4 a8 |
+							}
+						}
+						\new Staff {
+							\clef "bass"
+							\key ees \major
+							\numericTimeSignature
+							\time 3/4
+							\relative c{
+								d8 g f g ees f |
+								d8 a' g a f g |
+							}
+						}
+					>>
+					\new DrumStaff \with {
+						instrumentName = "Drums"
+						shortInstrumentName = "Drm"
+					} <<
+						\new DrumVoice{
+							\voiceOne
+							\drummode {
+								r4 sn2 |
+								cymc2. |
+							}
+						}
+					>>
+				>>
+			}
+			\layout{
+				indent = 2.5\cm
+				short-indent = 0.8\cm
+			}
+			\midi{}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 82, in script
+    python:
+  File "game/script.rpy", line 85, in <module>
+    next_dial += write(get_lexer,remembrar,[genero])
+AssertionError: Error de obtencion: en la cabecera del archivo debe estar incluido complementos
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 82, in script
+    python:
+  File "C:\Users\pedro\Desktop\ACTU - Zxgfzonvmgv F\IAN - Tifkl wv gizyzql\IAN-2.0-pc\renpy\ast.py", line 1104, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\pedro\Desktop\ACTU - Zxgfzonvmgv F\IAN - Tifkl wv gizyzql\IAN-2.0-pc\renpy\python.py", line 873, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 85, in <module>
+    next_dial += write(get_lexer,remembrar,[genero])
+  File "python/literarian/redator/logline.py", line 99, in write
+  File "python/literarian/redator/logline.py", line 78, in writer
+  File "python/literarian/redator/logline.py", line 51, in shuffler
+  File "python/literarian/lexicon/memorato.py", line 56, in remembrar
+AssertionError: Error de obtencion: en la cabecera del archivo debe estar incluido complementos
+
+Windows-10-10.0.19041
+Ren'Py 8.0.0.22041401n
+Novela Visual (IAN) 2.0
+Tue Apr 19 20:15:33 2022
