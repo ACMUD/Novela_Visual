@@ -1,0 +1,1 @@
+viajar/1-0,4,1/ sabotear/0-3,3,2/ encantar/2-3,3,3/ sobrevivir/1-1,0,4/ vengar/0-1,3,5/ destruir/0-2,2,6/ enamorar/0-1,3,7/ salvar/0-3,3,8/ heredar/0-2,4,9/ investigar/0-3,3,10/ descubrir/1-0,3,8/ asesinar/1-1,1,4/ triunfar/1-0,1,2,3/ escapar/3-0,0,5/ superar/1-1,0,3/ exorcizar/1-3,3,4/ escapar/3-0,3,4/ fingir/1-0,3,6/ desvelar/1-0,3,10/ ir/0-2,0,7/

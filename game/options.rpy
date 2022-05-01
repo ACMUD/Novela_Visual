@@ -19,12 +19,12 @@ define config.name = _("Novela Visual")
 ## Determina si el título dado más arriba se muestra en el menú principal.
 ## Ajústalo a 'False' para esconder el título.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## Versión del juego.
 
-define config.version = "0.2.0"
+define config.version = "1.0.0"
 
 
 ## Texto situado en la pantalla 'Acerca de' del juego. Sitúa el texto entre

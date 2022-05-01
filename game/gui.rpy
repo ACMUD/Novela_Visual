@@ -23,32 +23,32 @@ init python:
 ## Los colores del texto de la interfaz
 
 ## El color enfatizado usado en la interfaz para subrayar texto.
-define gui.accent_color = '#99ccff'
+define gui.accent_color = '#006666'
 
 ## El color del botón de texto cuando no está seleccionado ni enfocado.
-define gui.idle_color = '#888888'
+define gui.idle_color = '#aaaaaa'
 
 ## El color 'small' se usa para el texto pequeño, que necesita destacar más.
-define gui.idle_small_color = '#aaaaaa'
+define gui.idle_small_color = '#888888'
 
 ## El color usado en botones y barras que ganan foco.
-define gui.hover_color = '#c1e0ff'
+define gui.hover_color = '#006666'
 
 ## El color del botón de texto seleccionado pero no enfocado. Un botón está
 ## seleccionado si indica el valor actual de la pantalla o preferencia.
-define gui.selected_color = '#ffffff'
+define gui.selected_color = '#555555'
 
 ## El color de los botones de texto que no pueden ser seleccionados.
-define gui.insensitive_color = '#8888887f'
+define gui.insensitive_color = '#aaaaaa7f'
 
 ## Colores de la parte vacía de las barras. No se usan directamente, sino en la
 ## regeneración de las imágenes de barra.
-define gui.muted_color = '#3d5166'
-define gui.hover_muted_color = '#5b7a99'
+define gui.muted_color = '#66a3a3'
+define gui.hover_muted_color = '#99c1c1'
 
 ## Colores del texto del diálogo y menú.
-define gui.text_color = '#ffffff'
-define gui.interface_text_color = '#ffffff'
+define gui.text_color = '#404040'
+define gui.interface_text_color = '#404040'
 
 
 ## Tipos y tamaños de letra ####################################################
@@ -209,7 +209,7 @@ define gui.choice_button_borders = Borders(100, 5, 100, 5)
 define gui.choice_button_text_font = gui.text_font
 define gui.choice_button_text_size = gui.text_size
 define gui.choice_button_text_xalign = 0.5
-define gui.choice_button_text_idle_color = "#cccccc"
+define gui.choice_button_text_idle_color = "#515A5A"
 define gui.choice_button_text_hover_color = "#ffffff"
 define gui.choice_button_text_insensitive_color = "#444444"
 
